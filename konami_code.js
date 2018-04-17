@@ -4,7 +4,7 @@ function init() {
   // Write your JavaScript code inside the init() function
   let index = 0;
 
-  const input = document.querySelector('#mocha');
+  const input = document.body.querySelector('#mocha');
 
     input.addEventListner('keydown', function (e){
     const key = parseInt(e.detail || e.which);
