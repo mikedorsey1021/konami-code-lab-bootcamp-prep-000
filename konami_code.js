@@ -6,7 +6,7 @@ function init() {
 
   const input = document.body.querySelector('#mocha');
 
-    input.addEventListner('keydown', function (e){
+    var test = input.addEventListner('keydown', function (e){
     const key = parseInt(e.detail || e.which);
 
     if (key === code[index]){
@@ -21,5 +21,5 @@ function init() {
       index = 0;
     }
   })
-
+  test; 
 }
