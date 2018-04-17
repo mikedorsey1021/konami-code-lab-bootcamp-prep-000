@@ -21,3 +21,4 @@ function init() {
   })
 
 }
+init(); 
